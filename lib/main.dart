@@ -4,8 +4,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  var firebaseApp = await Firebase.initializeApp();
-  print(firebaseApp);
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 
@@ -127,6 +126,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               '$_counter',
+              key: Key('age'),
               style: Theme.of(context).textTheme.headline4,
             ),
           ],
