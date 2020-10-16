@@ -45,3 +45,5 @@ ios/Config/dev/GoogleService-Info.plist
 ios/Config/prod/GoogleService-Info.plist
 android/app/src/dev/google-services.json
 android/app/src/prod/google-services.json
+
+node_modules
