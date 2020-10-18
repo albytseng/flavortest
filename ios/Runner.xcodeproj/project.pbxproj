@@ -331,7 +331,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "Scripts/install_firebase_config.sh\n";
+			shellScript = "Scripts/install_firebase_config.sh\necho \"We have 여기 있어요\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
