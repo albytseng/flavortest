@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "flavor-test-fe042"
+    "default": "flavor-test-fe042",
+    "dev": "flavor-test-fe042"
   }
 }
