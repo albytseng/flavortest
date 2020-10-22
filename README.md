@@ -1,6 +1,6 @@
 # flavor_test
 
-A new Flutter project!
+Coolcoolcool. A new Flutter project!
 
 ## Getting Started
 
